@@ -1,0 +1,26 @@
+game X
+
+player input X
+
+changing player
+
+roll dice X
+
+changing score X
+
+holdscore X
+
+Winning score X
+
+Game
+ƒ Game(player1, player2){
+	this.firstPlayer = player1;
+	this.secondPlayer = player2;
+	this.activePlayer = 1;
+}
+console.log(Game);
+VM435:1 ƒ Game(player1, player2){
+	this.firstPlayer = player1;
+	this.secondPlayer = player2;
+	this.activePlayer = 1;
+}
