@@ -51,16 +51,12 @@ Player.prototype.holdScore = function(){
   this.gameScore += this.turnScore;
 	this.turnScore = 0
   console.log("Game score: " + this.gameScore);
- 	changeTurn(true)
-}
-
-function winGame() {
 	if (player1.gameScore >= 10){
 		return console.log("Player One wins!")
 	} else if (player2.gameScore >= 10){ 
 			return console.log("Player Two wins!")
 	} else {
+ 	changeTurn(true)
 }
 }
-
 // User Interface
